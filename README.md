@@ -17,6 +17,6 @@ Request a token
 
     curl --request POST  http://localhost:3000/oauth/token --data "grant_type=password&client_id=thom&client_secret=nightworld&username=thomseddon&password=nightworld"  --header "Content-Type: application/x-www-form-urlencoded"
 
-Then use the token with:
+Then use the token with (replace the token with the one you got from the line above):
 
     curl -H "Authorization: Bearer b6ebe71330f379f7b0b2ebec3a9d145a2570648b" http://localhost:3000
