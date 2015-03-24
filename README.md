@@ -2,7 +2,16 @@ My code example for using node-auth2-server found at https://github.com/thomsedd
 
 This was written purely to test an oauth client, if you want to use a proper model (not in memory like I did) - check out https://github.com/thomseddon/node-oauth2-server/tree/master/examples
 
-# Example usage
+# Install
+
+Checkout from git, then from the source directory (assuming you have nodejs installed)
+
+    npm install
+    node .
+
+Now test locally using example below.
+
+# Example client usage
 
 Request a token
 
